@@ -1,0 +1,28 @@
+.transactionHistory{
+    width: 500px;
+    text-align: center;
+    width: 80%;
+    border-collapse: collapse;
+    border: 2px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.headerList{
+        background-color: aqua;
+        color: grey;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+}
+.fotterList{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+tr:nth-child(2n) {
+    background-color: rgb(213, 242, 243);
+}
