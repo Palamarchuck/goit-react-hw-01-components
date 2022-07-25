@@ -14,7 +14,7 @@ export const TransactionHistory = ({ items }) => {
             </thead>
             <tbody>
                 {items.map(({ id, type, amount, currency }) => (
-                <tr tr className={styles.fotterList} key={id}>
+                <tr className={styles.fotterList} key={id}>
                     <td >{type}</td>
                     <td >{amount}</td>
                     <td >{currency}</td>
@@ -31,8 +31,9 @@ TransactionHistory.propTypes = {
         PropTypes.shape({
             id: PropTypes.string,
             type: PropTypes.string,
-            amount: PropTypes.number,
-            currency: PropTypes.number,
+            amount: PropTypes.string,
+            currency: PropTypes.string,
         })
     ),
 }
+

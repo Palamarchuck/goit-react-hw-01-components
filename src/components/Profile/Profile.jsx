@@ -38,10 +38,10 @@ Profile.propTypes = {
     username: PropTypes.string,
     tag: PropTypes.string,
     location: PropTypes.string,
-    stats: PropTypes.arrayOf(
+    stats: 
     PropTypes.shape({
       followers: PropTypes.number,
       views: PropTypes.number,
       likes: PropTypes.number,
-    }),)
+    },)
 }
